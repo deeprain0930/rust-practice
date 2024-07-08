@@ -7,6 +7,6 @@ fn main() {
     let width = message.chars().count();
 
     let mut writer = BufWriter::new(stdout.lock());
-
+    let a= 1;
     say(&message, width, &mut writer).unwrap();
 }
